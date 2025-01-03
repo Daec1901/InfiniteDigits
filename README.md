@@ -1,2 +1,0 @@
-# InfiniteDigits
-Updates de apps
