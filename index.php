@@ -1,16 +1,20 @@
-<!doctype html>
-<html lang="en">
+<?php
+// index.php
 
+// Establece la zona horaria
+date_default_timezone_set('America/Mexico_City');
+
+// Mensaje de bienvenida
+echo "<!DOCTYPE html>
+<html lang='es'>
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>InfiniteDigits</title>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Página de Prueba PHP</title>
 </head>
-
 <body>
-<h1>Hola mundo</h1>
-  
+    <h1>¡Hola! Esto es un PHP funcionando correctamente.</h1>
+    <p>La fecha y hora actual es: " . date('d/m/Y H:i:s') . "</p>
 </body>
-
-</html>
+</html>";
+?>
